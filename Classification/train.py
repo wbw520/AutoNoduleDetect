@@ -1,5 +1,5 @@
-from data_generation import load_data
-from train_model import *
+from Classification.data_generation import load_data
+from Classification.train_model import *
 import torch.optim as optim
 import torch
 import argparse
@@ -68,7 +68,7 @@ def main(aux=False):
     else:
         data_list = ["train", "val"]
     print(model_name)
-    train_model(init_model, dataloaders, criterion, optimizer_ft, "saved_model/" + model_name + "_" + mode + ".pt",
+    train_model(init_model, dataloaders, criterion, optimizer_ft, "../records/saved_model/" + model_name + "_" + mode + ".pt",
                 args=args, data_list=data_list, aux=aux)
 
 

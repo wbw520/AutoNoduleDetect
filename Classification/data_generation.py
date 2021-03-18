@@ -5,8 +5,8 @@ import os
 import pandas as pd
 from PIL import Image
 from sklearn.model_selection import train_test_split
-from tools.tools import make_dict, get_name
-from tools.transform_func import make_transform
+from Classification.tools.tools import make_dict, get_name
+from Classification.tools.transform_func import make_transform
 from prefetch_generator import BackgroundGenerator
 
 

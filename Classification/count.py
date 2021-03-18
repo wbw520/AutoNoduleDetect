@@ -1,7 +1,7 @@
 from random import shuffle
 import pandas as pd
-from data_generation import MakeList
-from train import get_args_parser
+from Classification.data_generation import MakeList
+from Classification.train import get_args_parser
 import argparse
 
 

@@ -1,8 +1,8 @@
-from tools.tools import AucCal, matrixs
-from data_generation import load_data
+from Classification.tools.tools import AucCal, matrixs
+from Classification.data_generation import load_data
 import torch
 from tqdm.auto import tqdm
-from train import get_args_parser
+from Classification.train import get_args_parser
 import numpy as np
 import argparse
 from timm.models import create_model

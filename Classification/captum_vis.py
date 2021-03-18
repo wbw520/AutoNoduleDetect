@@ -1,13 +1,13 @@
 import numpy as np
 import torch
 import argparse
-from train import get_args_parser
+from Classification.train import get_args_parser
 from timm.models import create_model
-from data_generation import MakeList, MakeListTest
-from tools.transform_func import make_transform
-from tools.SIOU import Siou, CalFinalCoordinate
-from tools.tools import patch
-from tools.make_json import make_json
+from Classification.data_generation import MakeList, MakeListTest
+from Classification.tools.transform_func import make_transform
+from Classification.tools.SIOU import Siou, CalFinalCoordinate
+from Classification.tools.tools import patch
+from Classification.tools.make_json import make_json
 import copy
 from PIL import Image
 import cv2
