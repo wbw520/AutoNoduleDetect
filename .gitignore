@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/.gitignore
+.idea/AutoNoduleDetect.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+Classification/timm/__pycache__/
+Classification/timm/data/__pycache__/
+Classification/timm/loss/__pycache__/
+Classification/timm/models/__pycache__/
+Classification/timm/models/layers/__pycache__/
+Classification/timm/optim/__pycache__/
+Classification/timm/scheduler/__pycache__/
+Detection/dataset/__pycache__/
+Detection/lib/__pycache__/
+Detection/tools/__pycache__/
+Detection/util/__pycache__/
+Detection/venv/include/
+SemanticSegmentation/DANET/__pycache__/
+SemanticSegmentation/modeling/__pycache__/
+SemanticSegmentation/modeling/backbone/__pycache__/
+SemanticSegmentation/modeling/sync_batchnorm/__pycache__/
+SemanticSegmentation/sync_batchnorm/__pycache__/
+record/
