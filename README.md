@@ -21,7 +21,9 @@ boxes to detect nodule is improved.
 ## Usage
 
 ##### Data Set
-
+The datasets of CXR images and CXR reports are not publicly available due to restrictions
+based on privacy regulations and informed consent of the participants, but are available from
+the corresponding author on reasonable request.
 
 ## Acknowledgements
 This work was supported by JSPS KAKENHI Grant Number JP20K07196 and by Council
