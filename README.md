@@ -21,9 +21,7 @@ boxes to detect nodule is improved.
 ## Usage
 
 ##### Data Set
-The datasets of CXR images and CXR reports are not publicly available due to restrictions
-based on privacy regulations and informed consent of the participants, but are available from
-the corresponding author on reasonable request.
+The datasets of CXR images and CXR reports are not publicly available due to restrictions based on privacy regulations and informed consent of the participants, but are available from the corresponding author on reasonable request.
 
 ##### DataExtraction
 This file is used to extract dicom images from database of Osaka University Hospital.
