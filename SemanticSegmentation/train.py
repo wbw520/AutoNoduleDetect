@@ -1,18 +1,18 @@
 import torch.nn as nn
-from tools import load_data, panduan, make_model, read_one
-from date_generator import PrepareList
-from train_model import *
+from SemanticSegmentation.tools import load_data, panduan, make_model, read_one
+from .date_generator import PrepareList
+from .train_model import *
 import torch.optim as optim
-from config import args
+from .config import args
 import numpy as np
 import torch
-from sync_batchnorm import convert_model
-from classification_data_factory import DealWith
+from .sync_batchnorm import convert_model
+from .classification_data_factory import DealWith
 
 
 def train():
     dataloaders = load_data(args)
-    init_model = make_model(args.model_name)
+    init_model = make_model(args, args.model_name)
 
     if args.multi:
         init_model = convert_model(init_model)
@@ -29,7 +29,7 @@ def train():
 
 
 def classification_generate(show_inference=False):
-    init_model = make_model(args.model_name, aux=False)
+    init_model = make_model(args, args.model_name, aux=False)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     init_model.load_state_dict(torch.load(args.model_name + ".pt"), strict=False)
     print("load finished")

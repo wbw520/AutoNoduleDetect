@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os
 import torch
-from tools import ColorTransition
+from SemanticSegmentation.tools import ColorTransition
 
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

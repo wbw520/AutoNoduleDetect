@@ -25,6 +25,20 @@ The datasets of CXR images and CXR reports are not publicly available due to res
 based on privacy regulations and informed consent of the participants, but are available from
 the corresponding author on reasonable request.
 
+##### DataExtraction
+This file is used to extract dicom images from database of Osaka University Hospital.
+
+##### SemanticSegmentation
+We provide some semantic model for lung field extraction. PSPNet is applied in the paper.
+```
+In train.py classification_generate() is used for segment the lung field.
+```
+
+##### Classification
+
+##### Detection
+Based on Faster-RCNN with pyramid feature module.
+
 ## Acknowledgements
 This work was supported by JSPS KAKENHI Grant Number JP20K07196 and by Council
 for Science, Technology and Innovation (CSTI), cross-ministerial Strategic Innovation

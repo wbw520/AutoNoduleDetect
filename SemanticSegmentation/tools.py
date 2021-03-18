@@ -1,9 +1,9 @@
-from date_generator import *
+from SemanticSegmentation.date_generator import *
 import cv2
-from model import *
-from DANET.danet import get_danet
-from modeling.deeplab import DeepLab
-from FCN import FCN8s, VGGNet
+from SemanticSegmentation.model import *
+from SemanticSegmentation.DANET.danet import get_danet
+from SemanticSegmentation.modeling.deeplab import DeepLab
+from SemanticSegmentation.FCN import FCN8s, VGGNet
 
 
 class ColorTransition(object):
@@ -117,7 +117,7 @@ def panduan(root):
     return os.path.exists(root)
 
 
-def make_model(model_name, aux=True):
+def make_model(args, model_name, aux=True):
     if "PSP" in model_name:
         model = PspNet(args.num_classes, use_aux=aux)
         print("load PSPNet")
