@@ -46,6 +46,12 @@ Institute of Biomedical Innovation, Health and Nutrition (NIBIOHN)).
 ## Publication
 If you want to use this work, please consider citing the following paper.
 ```
-@misc{
+@article{wang2021automatic,
+  title={Automatic creation of annotations for chest radiographs based on the positional information extracted from radiographic image reports},
+  author={Wang, Bowen and Takeda, Toshihiro and Sugimoto, Kento and Zhang, Jiahao and Wada, Shoya and Konishi, Shozo and Manabe, Shirou and Okada, Katsuki and Matsumura, Yasushi},
+  journal={Computer Methods and Programs in Biomedicine},
+  pages={106331},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
