@@ -1,5 +1,5 @@
 # Automatic creation of annotations for chest radiographs based on the positional information extracted from radiographic image reports
-[PDF]()
+[PDF](https://reader.elsevier.com/reader/sd/pii/S0169260721004053?token=8F1E189C053D0DFD57E8063032C6B370983212863A26482F17CE835D8E2AFEFE1EBD63FFBE2330D0FEE26073A4A34682&originRegion=us-east-1&originCreation=20210921005545)
 
 ## Model Structure
 ![Structure Figure](figs/overview.png)
